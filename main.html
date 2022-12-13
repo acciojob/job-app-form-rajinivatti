@@ -8,28 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-      <form method="get">
+     <form method="post">
         <label for="name">Name*</label><br>
-        <input type="text" id="name" required><br>
+        <input type="text" id="name"required><br>
         <label for="email">Email*</label><br>
         <input type="Email" id="email" required><br>
         <label for="Gender" required>Gender*</label><br>
-        <input type="radio" name="gender" value="Male">
+        <input type="radio" name="gender" value="Male" required>
         <label for="male">Male</label><br>
-        <input type="radio" name="gender" value="Female">
+        <input type="radio" name="gender" value="Female" required>
         <label for="female">Female</label><br>
         <label for="brands">Laptop Brands:</label>
-        <select id="laptop">
+        <select id="laptop" required>
             <option>Apple</option>
             <option>Asus</option>
             <option>HP</option>
         </select><br>
         <label for="age">Age*</label><br>
-        <input type="Age" id="age"><br>
+        <input type="Age" id="age" required><br>
         <label for="dob">DOB*</label><br>
-        <input type="date" id="date"><br>
+        <input type="dob" id="date" required><br>
         <label for="password">Password*</label><br>
-        <input type="password"><br><br>
+        <input type="password" required><br><br>
         <input type="submit">
     </form>
     <script type="text/javascript" src="./script.js">
